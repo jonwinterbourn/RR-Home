@@ -1,0 +1,30 @@
+@using Contensis.Framework.Web
+  
+  
+<section class="feed">
+<h1 class="delta heading-divide">@Properties.SectionHeading</h1>
+
+@foreach (var article in @Properties.News) {
+
+  	var path = "";
+    var thumb = "";
+  	if (article.NewsItem != null && !string.IsNullOrEmpty(article.NewsItem.Path))
+  		{
+			path = article.NewsItem.Path;
+  	}
+ 	if (article.Thumb != null && !string.IsNullOrEmpty(article.Thumb.Path))
+  		{
+			thumb = article.Thumb.Path;
+  	}
+
+    <article class="feed__item">
+    <a href="@path"><img class="feed__thumb" src="@thumb" alt="@article.NewsHeadingText"></a>
+    <h1 class="epsilon"><a href="@path">@article.NewsHeadingText</a></h1>
+    <p>@article.NewsText</p>
+    </article>
+  
+}
+
+
+	<a href="@Properties.SectionFooterURL" class="feed__more">@Properties.SectionFooterText</a>
+</section>

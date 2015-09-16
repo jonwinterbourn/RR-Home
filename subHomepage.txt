@@ -1,0 +1,39 @@
+<div contenteditable="true" style="border: 1px dashed #00ff00;" class="sys_placeholder sys_placeholder-homePagePrimaryCoverPlaceholder" data-cms="{'attributes':{'title':'homePagePrimaryCoverPlaceholder','width':'','height':'','constrainWidth':false,'constrainHeight':false,'tagToRender':'none','displayType':0,'textOnly':false,'placeholderClass':'','allowUsersToChangeStyles':false,'allowLinks':false,'allowSubTemplates':false,'allowHTMLSnippets':false,'allowImages':false,'allowMedia':false,'allowForms':false,'allowWebControls':true,'allowRazorViews':true}}">
+	<div contenteditable="false" atomicselection="true" class="sys_component" id="OCTRL1000000009" data-cms="{'attributes':{'cmsControlType':1,'cmsControlId':1000000009,'primarycoverimage':'','coverheadingtext':'Insert heading here','coverurl':'Insert URL here','covertext':'Insert blurb here'}}">
+		UoB - Home Page Primary Cover
+	</div>
+</div>
+<div contenteditable="true" style="border: 1px dashed #00ff00;" class="sys_placeholder sys_placeholder-homePageFirstCoversPlaceholder" data-cms="{'attributes':{'title':'homePageFirstCoversPlaceholder','width':'','height':'','constrainWidth':false,'constrainHeight':false,'tagToRender':'none','displayType':0,'textOnly':false,'placeholderClass':'','allowUsersToChangeStyles':false,'allowLinks':false,'allowSubTemplates':false,'allowHTMLSnippets':false,'allowImages':false,'allowMedia':false,'allowForms':false,'allowWebControls':true,'allowRazorViews':true}}">
+	<div contenteditable="false" atomicselection="true" class="sys_component" id="OCTRL1000000010" data-cms="{'attributes':{'cmsControlType':1,'cmsControlId':1000000010,'covers':'[{\'CoverText\':\'Insert blurb here\',\'CoverURL\':\'Insert URL here\',\'CoverImage\':\'\',\'IsPerspectiveArticle\':\'false\',\'CoverHeadingText\':\'Insert heading here\'},{\'CoverText\':\'Insert blurb here\',\'CoverURL\':\'Insert URL here\',\'CoverImage\':\'\',\'IsPerspectiveArticle\':\'false\',\'CoverHeadingText\':\'Insert heading here\'}]'}}">
+		UoB - Home Page Cover Repeater
+	</div>
+</div>
+<div class="row align--center">
+	<div class="container">
+		<div contenteditable="true" style="border: 1px dashed #00ff00;" class="sys_placeholder sys_placeholder-homePageGridContainerPlaceholder" data-cms="{'attributes':{'title':'homePageGridContainerPlaceholder','width':'','height':'','constrainWidth':false,'constrainHeight':false,'tagToRender':'none','displayType':0,'textOnly':false,'placeholderClass':'','allowUsersToChangeStyles':false,'allowLinks':false,'allowSubTemplates':true,'allowHTMLSnippets':false,'allowImages':false,'allowMedia':false,'allowForms':false,'allowWebControls':true,'allowRazorViews':true}}">
+			<div contenteditable="false" atomicselection="true" style="border: 1px dashed #ff0000;" class="sys_template" id="TEMPL2ColumnGridCentred" data-cms="{'attributes':{'name':'2ColumnGridCentred'}}">
+				<div class="grid sys_uobFeature">
+					<div class="grid__cell unit-1-2--bp2 align--center">
+						<div contenteditable="true" style="border: 1px dashed #00ff00;" class="sys_placeholder sys_placeholder-GridColumn1" data-cms="{'attributes':{'title':'GridColumn1','width':'','height':'','constrainWidth':false,'constrainHeight':false,'tagToRender':'none','displayType':0,'textOnly':false,'placeholderClass':'','allowUsersToChangeStyles':false,'allowLinks':true,'allowSubTemplates':true,'allowHTMLSnippets':true,'allowImages':true,'allowMedia':true,'allowForms':true,'allowWebControls':true,'allowRazorViews':true}}">
+							<div contenteditable="false" atomicselection="true" class="sys_component" id="OCTRL1000000012" data-cms="{'attributes':{'cmsControlType':1,'cmsControlId':1000000012,'sectionheading':'Latest news','sectionfootertext':'All news','sectionfooterurl':'http://www.birmingham.ac.uk/news','news':'[{\'NewsItem\':\'\',\'NewsHeadingText\':\'Insert heading here\',\'NewsText\':\'Insert blurb here\'},{\'NewsItem\':\'\',\'NewsHeadingText\':\'Insert heading here\',\'NewsText\':\'Insert blurb here\'}]'}}">
+								UoB - Home Page News Items
+							</div>
+						</div>
+					</div>
+					<div class="grid__cell unit-1-2--bp2 align--center">
+						<div contenteditable="true" style="border: 1px dashed #00ff00;" class="sys_placeholder sys_placeholder-GridColumn2" data-cms="{'attributes':{'title':'GridColumn2','width':'','height':'','constrainWidth':false,'constrainHeight':false,'tagToRender':'none','displayType':0,'textOnly':false,'placeholderClass':'','allowUsersToChangeStyles':false,'allowLinks':true,'allowSubTemplates':true,'allowHTMLSnippets':true,'allowImages':true,'allowMedia':true,'allowForms':true,'allowWebControls':true,'allowRazorViews':true}}">
+							<div contenteditable="false" atomicselection="true" class="sys_component" id="OCTRL1000000013" data-cms="{'attributes':{'cmsControlType':1,'cmsControlId':1000000013,'sectionheading':'Latest events','sectionfootertext':'All events','sectionfooterurl':'http://www.birmingham.ac.uk/events','events':'[{\'EventItem\':\'\',\'EventHeadingText\':\'Insert heading here\',\'EventText\':\'Insert blurb here\'},{\'EventItem\':\'\',\'EventHeadingText\':\'Insert heading here\',\'EventText\':\'Insert blurb here\'}]'}}">
+								UoB - Home Page Event Items
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div contenteditable="true" style="border: 1px dashed #00ff00;" class="sys_placeholder sys_placeholder-homePageSecondCoversPlaceholder" data-cms="{'attributes':{'title':'homePageSecondCoversPlaceholder','width':'','height':'','constrainWidth':false,'constrainHeight':false,'tagToRender':'none','displayType':0,'textOnly':false,'placeholderClass':'','allowUsersToChangeStyles':false,'allowLinks':false,'allowSubTemplates':false,'allowHTMLSnippets':false,'allowImages':false,'allowMedia':false,'allowForms':false,'allowWebControls':true,'allowRazorViews':true}}">
+	<div contenteditable="false" atomicselection="true" class="sys_component" id="OCTRL1000000010" data-cms="{'attributes':{'cmsControlType':1,'cmsControlId':1000000010,'covers':'[{\'CoverImage\':\'\',\'CoverHeadingText\':\'Insert heading here\',\'CoverURL\':\'Insert URL here\',\'CoverText\':\'Insert blurb here\',\'CoverBackgroundPosition\':\'Default\',\'CoverType\':\'Default\',\'BackgroundColour\':\'Insert background colour hex code here, eg #f2f3e5\',\'IsPerspectiveArticle\':\'false\'},{\'CoverImage\':\'\',\'CoverHeadingText\':\'Insert heading here\',\'CoverURL\':\'Insert URL here\',\'CoverText\':\'Insert blurb here\',\'CoverBackgroundPosition\':\'Default\',\'CoverType\':\'Default\',\'BackgroundColour\':\'Insert background colour hex code here, eg #f2f3e5\',\'IsPerspectiveArticle\':\'false\'}]'}}">
+		UoB - Home Page Cover Repeater
+	</div>
+</div>

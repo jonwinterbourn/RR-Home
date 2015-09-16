@@ -1,0 +1,19 @@
+<control name="UoB - Home Page Primary Cover" category="UoB HomePage Covers" showInMenu="false" viewingGroup="1">
+  <properties>
+    <category name="HomePageHeader">
+      <node name="PrimaryCoverImage" description="The cover image at the top of the page (1437 x 726px)">
+        <parameters>
+          <parameter name="ContentTypes" value="2" />
+        </parameters>
+      </node>
+      <node name="PrimaryCoverImageAlt" description="The Breakpoint 0 Alternative image for the Primary Cover (480x775px)">
+        <parameters>
+          <parameter name="ContentTypes" value="2" />
+        </parameters>
+      </node>
+      <text name="CoverHeadingText" default="Insert heading here" />
+      <text name="CoverURL" default="Insert URL here" />
+      <text name="CoverText" default="Insert blurb here" />
+    </category>
+  </properties>
+</control>

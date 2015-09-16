@@ -1,0 +1,21 @@
+<control name="UoB - Home Page Event Items" category="UoB HomePage Covers" showInMenu="false" viewingGroup="1">
+  <properties>
+	  <text name="SectionHeading" default="Latest events" />
+      <text name="SectionFooterText" default="All events" />
+      <text name="SectionFooterURL" default="http://www.birmingham.ac.uk/events" />
+    
+      <repeater name="Events" min="2" max="6">
+      <node name="EventItem" description="The Event Item">
+        <parameters>
+          <parameter name="ContentTypes" value="0" />
+        </parameters>
+      </node>
+      <text name="EventHeadingText" default="Insert heading here" />
+      <text name="EventText" default="Insert blurb here" />
+      <text name="EventDateMonth" default="January" />
+      <text name="EventDateDay" default="01" />
+      </repeater>
+
+      
+  </properties>
+</control>

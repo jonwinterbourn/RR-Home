@@ -1,0 +1,49 @@
+@using Contensis.Framework.Web
+
+@foreach (var cover in @Properties.Covers) {
+
+  	var path = "";
+  	var coverClassStr = String.Format("cover");
+  	var gridClassStr = String.Format("grid__cell unit-1-2--bp3");
+  	if (cover.CoverImage != null && !string.IsNullOrEmpty(cover.CoverImage.Path))
+  		{
+			path = cover.CoverImage.Path;
+  	}
+
+  if (cover.CoverType == "Dark") {
+    coverClassStr = @coverClassStr + " cover--dark";
+    
+  }
+  
+  if (cover.CoverBackgroundPosition == "Right") {
+    coverClassStr = @coverClassStr + " " + "cover--left"; 
+  } else {
+  	gridClassStr = @gridClassStr + " " + "grid__cell--right"; 
+  }
+   
+  <section class="@coverClassStr" style="background-image: url(@path); background-color: @cover.BackgroundColour;">
+  <div class="cover__inner">
+            <div class="container">
+                <div class="grid">
+                    <div class="@gridClassStr">
+                        <article class="cover__content">
+    						@if (@cover.IsPerspectiveArticle) {
+    							<a href="@cover.CoverURL" class="identifier">Birmingham Perspective</a>
+          					}
+                            <h1 class="cover__heading"><a href=@cover.CoverURL>@cover.CoverHeadingText</a></h1>
+                            
+                            @if (@cover.IsPerspectiveArticle) {
+                              <p>"@cover.CoverText"</p>
+                              <a href="@cover.CoverURL">Join the conversation<span class="chevron icon--chevron-blue"></span></a>
+                            } else {
+                              <p>@cover.CoverText</p>
+                            }
+  							
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+  
+}

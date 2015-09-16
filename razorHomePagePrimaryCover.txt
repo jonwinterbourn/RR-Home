@@ -1,0 +1,32 @@
+@using Contensis.Framework.Web		
+  @{
+    var path = "";
+  	var altpath = "";
+  	if (Properties.PrimaryCoverImage != null && !string.IsNullOrEmpty(Properties.PrimaryCoverImage.Path))
+  	{
+		path = Properties.PrimaryCoverImage.Path;
+  	}
+  	if (Properties.PrimaryCoverImageAlt != null && !string.IsNullOrEmpty(Properties.PrimaryCoverImageAlt.Path))
+  	{
+		altpath = Properties.PrimaryCoverImageAlt.Path;
+  	}
+}
+<style>
+  @@media screen and (min-width: 30em) {
+	.cover--primary {
+    	background-image: url(@path);
+	}
+}
+
+	@@media screen and (max-width: 30em) {
+ 	 .cover--primary {
+    	background-image: url(@altpath);
+	}
+}
+</style>
+<section class="cover cover--dark cover--primary">
+	<article class="cover__content">
+        <h1 class="cover__heading"><a href="@Properties.CoverURL">@Properties.CoverHeadingText</a></h1>
+        <p>@Properties.CoverText</p>    
+	</article>
+</section>

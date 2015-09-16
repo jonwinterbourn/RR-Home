@@ -1,0 +1,29 @@
+@using Contensis.Framework.Web
+  
+  
+<section class="feed">
+<h1 class="delta heading-divide">@Properties.SectionHeading</h1>
+
+@foreach (var article in @Properties.Events) {
+
+  	var path = "";
+  	if (article.EventItem != null && !string.IsNullOrEmpty(article.EventItem.Path))
+  		{
+			path = article.EventItem.Path;
+  	}
+
+    <article class="feed__item">
+    <!-- calendar item here -->
+    <div class="date date--large feed__cal">
+    	<span class="date__month">@article.EventDateMonth</span>
+        <span class="date__day">@article.EventDateDay</span>
+    </div>
+    <h1 class="epsilon"><a href="@path">@article.EventHeadingText</a></h1>
+    <p>@article.EventText</p>
+    </article>
+  
+}
+
+
+	<a href="@Properties.SectionFooterURL" class="feed__more">@Properties.SectionFooterText</a>
+</section>

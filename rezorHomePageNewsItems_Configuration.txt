@@ -1,0 +1,25 @@
+<control name="UoB - Home Page News Items" category="UoB HomePage Covers" showInMenu="false" viewingGroup="1">
+  <properties>
+	
+      <text name="SectionHeading" default="Latest news" />
+      <text name="SectionFooterText" default="All news" />
+      <text name="SectionFooterURL" default="http://www.birmingham.ac.uk/news" />
+    
+      <repeater name="News" min="2" max="6">
+      <node name="NewsItem" description="The News Item">
+        <parameters>
+          <parameter name="ContentTypes" value="0" />
+        </parameters>
+      </node>
+      <text name="NewsHeadingText" default="Insert heading here" />
+      <text name="NewsText" default="Insert blurb here" />
+      <node name="Thumb" description="News Image 180 x 180px">
+        <parameters>
+          <parameter name="ContentTypes" value="2" />
+        </parameters>
+      </node>
+      </repeater>
+
+      
+  </properties>
+</control>

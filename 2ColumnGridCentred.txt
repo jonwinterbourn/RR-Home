@@ -1,0 +1,10 @@
+<div class="grid sys_uobFeature">
+	<div class="grid__cell unit-1-2--bp2 align--center">
+		<div contenteditable="true" style="border: 1px dashed #00ff00;" class="sys_placeholder sys_placeholder-GridColumn1" data-cms="{'attributes':{'title':'GridColumn1','width':'','height':'','constrainWidth':false,'constrainHeight':false,'tagToRender':'none','displayType':0,'textOnly':false,'placeholderClass':'','allowUsersToChangeStyles':false,'allowLinks':true,'allowSubTemplates':true,'allowHTMLSnippets':true,'allowImages':true,'allowMedia':true,'allowForms':true,'allowWebControls':true,'allowRazorViews':true}}">
+		</div>
+	</div>
+	<div class="grid__cell unit-1-2--bp2 align--center">
+		<div contenteditable="true" style="border: 1px dashed #00ff00;" class="sys_placeholder sys_placeholder-GridColumn2" data-cms="{'attributes':{'title':'GridColumn2','width':'','height':'','constrainWidth':false,'constrainHeight':false,'tagToRender':'none','displayType':0,'textOnly':false,'placeholderClass':'','allowUsersToChangeStyles':false,'allowLinks':true,'allowSubTemplates':true,'allowHTMLSnippets':true,'allowImages':true,'allowMedia':true,'allowForms':true,'allowWebControls':true,'allowRazorViews':true}}">
+		</div>
+	</div>
+</div>

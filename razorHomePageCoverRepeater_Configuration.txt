@@ -1,0 +1,31 @@
+<control name="UoB - Home Page Cover Repeater" category="UoB HomePage Covers" showInMenu="false" viewingGroup="1">
+  <properties>
+
+      <repeater name="Covers" min="2" max="4">
+      <node name="CoverImage" description="The cover image (1437 x 726px)">
+        <parameters>
+          <parameter name="ContentTypes" value="2" />
+        </parameters>
+      </node>
+      <text name="CoverHeadingText" default="Insert heading here" />
+      <text name="CoverURL" default="Insert URL here" />
+      <text name="CoverText" default="Insert blurb here" />
+      <text name="CoverBackgroundPosition">
+        <options>
+          <option label="Default" value="Default" />
+          <option label="Right" value="Right" />
+        </options>
+      </text>
+      <text name="CoverType">
+        <options>
+          <option label="Default" value="Default" />
+          <option label="Dark" value="Dark" />
+        </options>
+      </text>
+      <text name="BackgroundColour" default="Insert background colour hex code here, eg #f2f3e5" />
+      <boolean name="IsPerspectiveArticle" />
+      </repeater>
+
+      
+  </properties>
+</control>
