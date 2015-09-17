@@ -2,6 +2,7 @@
   @{
     var path = "";
   	var altpath = "";
+  	var coverClassStr = String.Format("cover cover--primary");
   	if (Properties.PrimaryCoverImage != null && !string.IsNullOrEmpty(Properties.PrimaryCoverImage.Path))
   	{
 		path = Properties.PrimaryCoverImage.Path;
@@ -10,7 +11,13 @@
   	{
 		altpath = Properties.PrimaryCoverImageAlt.Path;
   	}
+  	if (Properties.CoverType == "Dark") {
+		coverClassStr = @coverClassStr + " cover--dark";
+	}
 }
+
+
+
 <style>
   @@media screen and (min-width: 30em) {
 	.cover--primary {
@@ -24,7 +31,7 @@
 	}
 }
 </style>
-<section class="cover cover--dark cover--primary">
+<section class="@coverClassStr">
 	<article class="cover__content">
         <h1 class="cover__heading"><a href="@Properties.CoverURL">@Properties.CoverHeadingText</a></h1>
         <p>@Properties.CoverText</p>    

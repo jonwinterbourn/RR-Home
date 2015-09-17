@@ -14,6 +14,12 @@
       <text name="CoverHeadingText" default="Insert heading here" />
       <text name="CoverURL" default="Insert URL here" />
       <text name="CoverText" default="Insert blurb here" />
+      <text name="CoverType" default="Dark">
+        <options>
+          <option label="Default" value="Default" />
+          <option label="Dark" value="Dark" />
+        </options>
+      </text>
     </category>
   </properties>
 </control>
